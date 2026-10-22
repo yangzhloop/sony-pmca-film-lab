@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Film Lab / UI review</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #292b26; background: #f7f5ef; font-family: Arial, "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }
+    main { width: 1264px; max-width: calc(100% - 96px); margin: 0 auto; padding: 44px 0 28px; }
+    header { border-bottom: 1px solid #dcdad1; padding-bottom: 25px; }
+    .eyebrow { color: #a6643c; letter-spacing: 2px; font-size: 11px; font-weight: 700; }
+    h1 { font-size: 31px; font-weight: 500; letter-spacing: -1px; margin: 12px 0 8px; }
+    header p { color: #787a71; font-size: 13px; margin: 0; }
+    .languages, .screens { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    .languages { padding: 24px 0 16px; }
+    .languages h2 { margin: 0; font-size: 15px; font-weight: 600; }
+    .screens { row-gap: 26px; }
+    figure { margin: 0; min-width: 0; }
+    figcaption { display: flex; align-items: baseline; gap: 10px; margin: 0 0 10px; font-size: 13px; }
+    figcaption span { color: #a06e4a; font-family: monospace; font-size: 11px; }
+    img { display: block; width: 100%; aspect-ratio: 4 / 3; border: 1px solid #272923; background: #161616; box-shadow: 0 5px 14px #292b2610; }
+    footer { display: flex; justify-content: space-between; align-items: center; color: #7d7e74; font-size: 11px; border-top: 1px solid #dcdad1; padding-top: 19px; margin-top: 29px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">SONY A7R II · INTERFACE PROPOSAL</div>
+      <h1>Film Lab / UI review</h1>
+      <p>Browse a film preset. Create a named recipe. Keep your own looks.</p>
+    </header>
+    <div class="languages"><h2>English</h2><h2 lang="zh-CN">简体中文</h2></div>
+    <section class="screens" aria-label="Three camera screens in English and Simplified Chinese">
+      <figure><figcaption><span>01</span> Film preset library</figcaption><img src="library-en-lcd.png" alt="English film preset library with Classic Chrome selected"></figure>
+      <figure lang="zh-CN"><figcaption><span>01</span> 胶片预设库</figcaption><img src="library-zh-lcd.png" alt="中文胶片预设库，选中经典正片"></figure>
+      <figure><figcaption><span>02</span> Custom recipe editor · Kyoto 京都 400</figcaption><img src="editor-en-lcd.png" alt="English custom recipe editor with mixed-language name Kyoto 京都 400"></figure>
+      <figure lang="zh-CN"><figcaption><span>02</span> 自定义配方编辑 · Kyoto 京都 400</figcaption><img src="editor-zh-lcd.png" alt="中文自定义配方编辑，配方名为 Kyoto 京都 400"></figure>
+      <figure><figcaption><span>03</span> Recipe details · rename & delete</figcaption><img src="detail-en-lcd.png" alt="English user recipe details with use, edit, rename and delete actions"></figure>
+      <figure lang="zh-CN"><figcaption><span>03</span> 配方详情 · 重命名与删除</figcaption><img src="detail-zh-lcd.png" alt="中文用户配方详情，显示应用、编辑、重命名和删除操作"></figure>
+    </section>
+    <footer><span>Interactive design proposal · illustrative scene/colors</span><span>English / 简体中文</span></footer>
+  </main>
+</body>
+</html>

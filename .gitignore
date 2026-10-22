@@ -1,0 +1,12 @@
+# Local tool/build outputs; the build receipt remains reviewable.
+__pycache__/
+*.py[cod]
+*.class
+/dist/*.apk
+/.cache/
+/.venv/
+
+# Signing identities must remain outside the checkout.
+*.jks
+*.keystore
+*-password.txt

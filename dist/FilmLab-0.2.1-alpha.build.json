@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "artifact": "/workspace/sony-pmca-film-lab/dist/FilmLab-0.2.1-alpha.apk",
+  "sha256": "bbd1dacb7978da90654c2297ca77ddae053891dd38a7652734f0c75d2babab5b",
+  "inputSha256": "49f0b24de865ce7c5fa96dec79687ffb786e62a60a204016aad4c7f622bdf3e1",
+  "manifest": {
+    "originalPackage": "com.yuki.imaging.app.pictureeffectplus",
+    "originalActivity": "com.yuki.imaging.app.pictureeffectplus.PictureEffectPlus",
+    "package": "com.flab.imaging.app.pictureeffectplus",
+    "activities": [
+      "com.yuki.imaging.app.pictureeffectplus.PictureEffectPlus",
+      "com.filmlab.diagnostics.DiagnosticActivity"
+    ],
+    "launchers": [
+      "com.yuki.imaging.app.pictureeffectplus.PictureEffectPlus"
+    ],
+    "versionCode": 3,
+    "versionName": "0.2.1-alpha"
+  },
+  "dexVersion": "035",
+  "javaTarget": "1.6",
+  "dexFiles": 1,
+  "dexMethodReferences": 17735,
+  "manifestSdkDeclaration": "inherited-absent; implicit minimum 1",
+  "compileApi": 10,
+  "signatureApiChecked": 10,
+  "signatureScheme": "v1",
+  "cameraTested": false,
+  "resourceHandling": "binary package header and app-name values; original icon paths; no aapt",
+  "preservedZipEntries": 675,
+  "originalClassNamespacesPreserved": true,
+  "addedClasses": [
+    "com/filmlab/app/AppLanguage.smali",
+    "com/filmlab/app/FilmFonts.smali",
+    "com/filmlab/app/FilmLabUi$1.smali",
+    "com/filmlab/app/FilmLabUi$10.smali",
+    "com/filmlab/app/FilmLabUi$11.smali",
+    "com/filmlab/app/FilmLabUi$12.smali",
+    "com/filmlab/app/FilmLabUi$13.smali",
+    "com/filmlab/app/FilmLabUi$14.smali",
+    "com/filmlab/app/FilmLabUi$15.smali",
+    "com/filmlab/app/FilmLabUi$16.smali",
+    "com/filmlab/app/FilmLabUi$17.smali",
+    "com/filmlab/app/FilmLabUi$18.smali",
+    "com/filmlab/app/FilmLabUi$19.smali",
+    "com/filmlab/app/FilmLabUi$2.smali",
+    "com/filmlab/app/FilmLabUi$20.smali",
+    "com/filmlab/app/FilmLabUi$21.smali",
+    "com/filmlab/app/FilmLabUi$22.smali",
+    "com/filmlab/app/FilmLabUi$23.smali",
+    "com/filmlab/app/FilmLabUi$24.smali",
+    "com/filmlab/app/FilmLabUi$25.smali",
+    "com/filmlab/app/FilmLabUi$26.smali",
+    "com/filmlab/app/FilmLabUi$27.smali",
+    "com/filmlab/app/FilmLabUi$28.smali",
+    "com/filmlab/app/FilmLabUi$29.smali",
+    "com/filmlab/app/FilmLabUi$3.smali",
+    "com/filmlab/app/FilmLabUi$30.smali",
+    "com/filmlab/app/FilmLabUi$31.smali",
+    "com/filmlab/app/FilmLabUi$32.smali",
+    "com/filmlab/app/FilmLabUi$33.smali",
+    "com/filmlab/app/FilmLabUi$34.smali",
+    "com/filmlab/app/FilmLabUi$35.smali",
+    "com/filmlab/app/FilmLabUi$36.smali",
+    "com/filmlab/app/FilmLabUi$37.smali",
+    "com/filmlab/app/FilmLabUi$38.smali",
+    "com/filmlab/app/FilmLabUi$39.smali",
+    "com/filmlab/app/FilmLabUi$4.smali",
+    "com/filmlab/app/FilmLabUi$40.smali",
+    "com/filmlab/app/FilmLabUi$41.smali",
+    "com/filmlab/app/FilmLabUi$42.smali",
+    "com/filmlab/app/FilmLabUi$43$1.smali",
+    "com/filmlab/app/FilmLabUi$43.smali",
+    "com/filmlab/app/FilmLabUi$5.smali",
+    "com/filmlab/app/FilmLabUi$6.smali",
+    "com/filmlab/app/FilmLabUi$7.smali",
+    "com/filmlab/app/FilmLabUi$8.smali",
+    "com/filmlab/app/FilmLabUi$9.smali",
+    "com/filmlab/app/FilmLabUi$Adjust.smali",
+    "com/filmlab/app/FilmLabUi$FilmIcon.smali",
+    "com/filmlab/app/FilmLabUi$RefreshReport.smali",
+    "com/filmlab/app/FilmLabUi$ReportExport.smali",
+    "com/filmlab/app/FilmLabUi$ReportState.smali",
+    "com/filmlab/app/FilmLabUi$Row.smali",
+    "com/filmlab/app/FilmLabUi.smali",
+    "com/filmlab/app/NameKeyboard.smali",
+    "com/filmlab/app/PinyinDictionary.smali",
+    "com/filmlab/app/Recipe.smali",
+    "com/filmlab/app/RecipeMath.smali",
+    "com/filmlab/app/RecipeStore$State.smali",
+    "com/filmlab/app/RecipeStore.smali",
+    "com/filmlab/app/ShootingBridge$1.smali",
+    "com/filmlab/app/ShootingBridge$WhiteBalance.smali",
+    "com/filmlab/app/ShootingBridge.smali",
+    "com/filmlab/diagnostics/BuildInfo.smali",
+    "com/filmlab/diagnostics/CameraKeys.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$1.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$10.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$11.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$12.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$13.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$14.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$15.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$16.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$2.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$3.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$4.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$5.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$6.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$7.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$8.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$9.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity$ExportJob.smali",
+    "com/filmlab/diagnostics/DiagnosticActivity.smali",
+    "com/filmlab/diagnostics/DiagnosticsBridge$1.smali",
+    "com/filmlab/diagnostics/DiagnosticsBridge$2.smali",
+    "com/filmlab/diagnostics/DiagnosticsBridge.smali",
+    "com/filmlab/diagnostics/ReportStore$1.smali",
+    "com/filmlab/diagnostics/ReportStore$2.smali",
+    "com/filmlab/diagnostics/ReportStore$Clock.smali",
+    "com/filmlab/diagnostics/ReportStore$ExportException.smali",
+    "com/filmlab/diagnostics/ReportStore$StateSnapshot.smali",
+    "com/filmlab/diagnostics/ReportStore.smali"
+  ],
+  "addedAssets": [
+    "assets/legal/LICENSE-FilmLab-MIT.txt",
+    "assets/fonts/FilmLabCJK.ttf",
+    "assets/legal/NOTICE-DroidSansFallback.txt",
+    "assets/legal/FONT-PROVENANCE.json",
+    "assets/legal/LICENSE-pypinyin-MIT.txt",
+    "assets/legal/PINYIN-PROVENANCE.json",
+    "assets/pinyin.tsv"
+  ],
+  "version": "0.2.1-alpha",
+  "buildId": "1ed4cca1f0a69b8c3c8ac48d62ed662a38dbffe04a0c2539752cc6e4aa6ddc2d",
+  "sourceSha256": {
+    "camera/java/com/filmlab/app/AppLanguage.java": "aa756123021dfdbaac00ca49ac699b66f3dd8dcb21d09b3007e9567f08f36c9f",
+    "camera/java/com/filmlab/app/FilmFonts.java": "6693bdd0cb1fa9a6824b187ff8f818b7b474b47b8e79855a9fcca778d5f2433f",
+    "camera/java/com/filmlab/app/FilmLabUi.java": "2d9f68a7cae5be205c030f418cbab4eac5bb86b7a44755cb8b099383e502958d",
+    "camera/java/com/filmlab/app/NameKeyboard.java": "4f307af11ea64daf3ca33bbff42ef28577f9468cc5233efadb26479ad73d6bc4",
+    "camera/java/com/filmlab/app/PinyinDictionary.java": "86ed5864c04da61ca08e8eb59fc066a7749fc1e86d2e18dee4c18ff6eaf6383c",
+    "camera/java/com/filmlab/app/Recipe.java": "7cf5e46f68a5b9be18cd64d29beeeb805355c066bdbd7275d968d50d5b4cd453",
+    "camera/java/com/filmlab/app/RecipeMath.java": "b37402af06758271a23e9e78a42699af64d661941566cb22d499008201c114ca",
+    "camera/java/com/filmlab/app/RecipeStore.java": "4ff932851af1df97e9e4913746304e7abfb72f80117f6bad060a9472bf59571a",
+    "camera/java/com/filmlab/app/ShootingBridge.java": "85537c4715ae595b8a088249bdb655e019d8eba9624fa247336c189c7a1ae5d5",
+    "camera/java/com/filmlab/diagnostics/CameraKeys.java": "c58e586fdd40ccb35e0562bc90e0c7213bb93f12e5c79eaa28c9eda4617c9e6c",
+    "camera/java/com/filmlab/diagnostics/DiagnosticActivity.java": "5e20748b47b74ab81c0466447e556a7dde1c7fd63d57d67939278c3175b1facb",
+    "camera/java/com/filmlab/diagnostics/DiagnosticsBridge.java": "a9b8bea2a186697c064afa2f665e8b5d89efaed34649205c5690ad5f8f9ff982",
+    "camera/java/com/filmlab/diagnostics/ReportStore.java": "7614390848c1856cc28f9b368474f67de1d08da9e6e172ddceb52e686482a731",
+    "tools/build_diagnostic.py": "82b3d2847aad2e56589ab8a9e5239bd01ca9019acc993a12aa6efa82695d0567",
+    "tools/camera_toolchain.py": "e23865d97757b624b468ce2ffa18d971fd6ea11778cd4fda83fe003f06281157",
+    "tools/diagnostic_hooks.py": "2bd32177dc7e50ee83f3e992497662b54e3cd8ddb0361efb3962d2c1011ceda2",
+    "tools/recipe_hooks.py": "94b154f6839023ff9e04c1f4985b7448e67b1d9968d34d06cd07a1423810bd88",
+    "tools/prepare_camera_font.py": "fcd98ea521a416841689dba9b3142f121b4ac0eb019576f531b706b3331bba0c",
+    "tools/prepare_pinyin.py": "2b6caeafcf048c14aed0feb730354b5be3bc6612d011e21d4393a86930c8db2d",
+    "tools/camera_branding.py": "0958e97196da0254f2cb782299482df065d9c71e534faf754bd6e23162f6259b",
+    "LICENSE": "f6861faaf3e83bb6e745eb4649ac3bc24eae713bd106e7076229aaf3a5841ca3",
+    "camera/assets/legal/LICENSE-pypinyin-MIT.txt": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "camera/assets/legal/PINYIN-PROVENANCE.json": "3d880e829458bac5eb4d9a936ee86f3c908f299417aa50f928e39cdc28b58edc",
+    "camera/assets/pinyin.tsv": "04d8cba0e1595f0853ce2f3428d743cc1547a4a4af4152d5b52e603b15233705"
+  },
+  "hooks": {
+    "observer_version": 1,
+    "classes": [
+      {
+        "class": "com/yuki/imaging/app/pictureeffectplus/PictureEffectPlus.smali",
+        "methods": [
+          "onCreate"
+        ],
+        "before_sha256": "28c4d51e12791128ce506c79e650d1227cdecc3a8a6b49b9f5d6618f2136de09",
+        "after_sha256": "d44d3112f07014712e8b0feb111e7d6972594e0ae77e4d72fde62278155cade2"
+      },
+      {
+        "class": "com/yuki/imaging/app/pictureeffectplus/shooting/camera/RicohHook.smali",
+        "methods": [
+          "applyHook",
+          "getStrength"
+        ],
+        "before_sha256": "2e06c6b8ecc6b06b421c5ea23767db0098efc43d8493857b5843dc01f20e95d5",
+        "after_sha256": "d8a913c059155bd0ed39bb3a62610129477fb8ad92e2b43b87471a755bc9ca0e"
+      },
+      {
+        "class": "com/sony/imaging/app/base/shooting/camera/CameraSetting.smali",
+        "methods": [
+          "getCameraParameterPair",
+          "onError"
+        ],
+        "before_sha256": "11299488c3e3529e33a4a4ea6283a55eb971bb8863843011f298a47a7fac91c6",
+        "after_sha256": "e8eb35939e420cb46c34d0e79c78e5d238f1009be0dcdfae483cf674890b4bf1"
+      },
+      {
+        "class": "com/sony/imaging/app/base/shooting/camera/executor/ShootingExecutor.smali",
+        "methods": [
+          "takePicture(I)V"
+        ],
+        "before_sha256": "66640cc4cdda57393e5022e77801838d82264b390589324c0b41a3fe1d735c60",
+        "after_sha256": "61fc6d864a4521c5bdea10c909e8c60516ceedea9f8a53c2624cb0a16cd9c393"
+      },
+      {
+        "class": "com/sony/imaging/app/base/shooting/CaptureStateBase.smali",
+        "methods": [
+          "onShuttered(ILcom/sony/scalar/hardware/CameraEx;)V"
+        ],
+        "before_sha256": "0f2df6b5d1f17cb6a38616b90dd82aec6275e724420aa45ece0595982869c78d",
+        "after_sha256": "d4d4e0406e4d661519bf961f4ef716d02129f205bc173daf6d3644be451de212"
+      }
+    ],
+    "readback_source": "existing native Camera.getParameters result",
+    "additional_camera_requests": 0,
+    "key_handlers_changed": false,
+    "disp_controller_changed": false,
+    "flash_controls_changed": false,
+    "saved_image_verified": false
+  },
+  "versionCode": 3,
+  "recipeHooks": {
+    "recipe_hooks_version": 2,
+    "classes": [
+      {
+        "class": "com/yuki/imaging/app/pictureeffectplus/PictureEffectPlus.smali",
+        "methods": [
+          "onCreate",
+          "onBoot",
+          "dispatchKeyEvent"
+        ],
+        "before_sha256": "d44d3112f07014712e8b0feb111e7d6972594e0ae77e4d72fde62278155cade2",
+        "after_sha256": "3acc04c3d25b65101c6e12216e2780df9ad0aced759fc38a6864319c7a42cd8f"
+      },
+      {
+        "class": "com/sony/imaging/app/fw/AppRoot.smali",
+        "methods": [
+          "onDestroy"
+        ],
+        "before_sha256": "b9133c8ecfb60504c0c307facdc7d9a9c52bc9c0087f6c963dad5720c4705cf1",
+        "after_sha256": "b33192e4740502ff5cd8b14bef1f54e3227f05445b1302d973bc2fea4d3e431b"
+      },
+      {
+        "class": "com/sony/imaging/app/base/shooting/widget/AppNameConstantView.smali",
+        "methods": [
+          "onAttachedToWindow"
+        ],
+        "before_sha256": "0f7b268cd6541a2f14924e094dd69e7190c46aa2be2ffa472c7404a0e9d327ab",
+        "after_sha256": "a7d57726f844f1868f1f6521a24e4d7f311f65d0bba14bcb55eb9c87d7074bc3"
+      },
+      {
+        "class": "com/sony/imaging/app/base/shooting/S1OffEEState.smali",
+        "methods": [
+          "onResume",
+          "onPause"
+        ],
+        "before_sha256": "4e2c3614a2e5cfb6e920cb57c8e3758ff42a76f20351dabd6ede316aec6dbe20",
+        "after_sha256": "6f2e9da6684308c15140d1c76daeeacd353bb1398170f98e00a2f49b18808401"
+      },
+      {
+        "class": "com/yuki/imaging/app/pictureeffectplus/shooting/trigger/PictureEffectPlusS1OffEEStateKeyHandler.smali",
+        "methods": [
+          "pushedCenterKey",
+          "pushedFnKey",
+          "pushedMenuKey"
+        ],
+        "before_sha256": "e8784c2183bc3c873b65898f621d2458fa0e6b7ed0eddcc8f238c4d89e5c4a29",
+        "after_sha256": "33276fd5a6e204463b4afbfe3616044499ffd9bfc9e8bd890214d8507115a3d9"
+      },
+      {
+        "class": "com/yuki/imaging/app/pictureeffectplus/shooting/camera/RicohHook.smali",
+        "methods": [
+          "applyHook",
+          "getStrength",
+          "getFilterName"
+        ],
+        "before_sha256": "d8a913c059155bd0ed39bb3a62610129477fb8ad92e2b43b87471a755bc9ca0e",
+        "after_sha256": "7d98f7c0bf32565c173845e6fccb0bbcf7cd1b5b13a76ca557977a6c73ccd46d"
+      }
+    ],
+    "ui_entry_state": "S1OffEE",
+    "idle_shortcuts": {
+      "Fn": "library",
+      "Center": "library",
+      "MENU": "settings"
+    },
+    "native_dispatch_fallback": true,
+    "camera_ownership": "inherited Sony CameraSetting and state machine",
+    "profile_source_strength": 100,
+    "processing": "independent 1/1024 RGB matrix and 1024-point tone curve",
+    "white_balance": "native controller support validation and option setters",
+    "flash_controls_changed": false,
+    "disp_controller_changed": false,
+    "capture_algorithm_changed": false,
+    "saved_image_verified": false
+  },
+  "font": {
+    "family": "Droid Sans Fallback",
+    "license": "Apache-2.0",
+    "sourceCommit": "4873a480f6df3f84bb3ca5c8647e9498aaf597a5",
+    "sourceUrl": "https://raw.githubusercontent.com/aosp-mirror/platform_frameworks_base/4873a480f6df3f84bb3ca5c8647e9498aaf597a5/data/fonts/DroidSansFallback.ttf",
+    "sha256": "8fe329bfcab968760be992f1550428821c5b3ac4b246bd60dd8c1f9b7e26e2a0",
+    "noticeSha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+    "asset": "assets/fonts/FilmLabCJK.ttf",
+    "bytes": 3838696,
+    "staticTrueType": true,
+    "unmodifiedFullFont": true,
+    "mappedCharacters": 34491,
+    "cjkUnifiedIdeographs": 20902,
+    "requiredCharactersChecked": 21012,
+    "missingCharacters": []
+  },
+  "branding": {
+    "name": "Film Lab",
+    "nameResourceIds": [
+      "0x7f090028",
+      "0x7f090029"
+    ],
+    "nameConfigurationsReplaced": {
+      "STRID_FUNC_EFFECT_MASTER": 33,
+      "STRID_FUNC_EFFECT_MASTER_2L": 33
+    },
+    "resourceIdsPreserved": true,
+    "icons": [
+      {
+        "path": "res/drawable-nodpi/p_16_aa_parts_pe_appicon.png",
+        "resourceId": "0x7f02001d",
+        "previousSize": [
+          58,
+          46
+        ],
+        "size": [
+          58,
+          46
+        ],
+        "sha256": "bc9f2298bbf72c4d86ce6a94dcbcb372ed832ec91673c2ffcce7b60a98bd7409"
+      },
+      {
+        "path": "res/drawable-notlong-nodpi/p_16_dd_parts_pe_appicon.png",
+        "resourceId": "0x7f02004d",
+        "previousSize": [
+          70,
+          55
+        ],
+        "size": [
+          70,
+          55
+        ],
+        "sha256": "3385c38e0107a7ee926deb4cd9f6319fe8aaf145273db39647ac407435487125"
+      },
+      {
+        "path": "res/drawable-notlong-nodpi/p_16_dd_parts_pe_launchericon.png",
+        "resourceId": "0x7f02005c",
+        "previousSize": [
+          72,
+          96
+        ],
+        "size": [
+          72,
+          96
+        ],
+        "sha256": "4e51bead0cb534d9a82f20e3d964ad2603e811017da149ed1ac86eb0aa02313f"
+      },
+      {
+        "path": "res/drawable-notlong-nodpi/p_16_dd_parts_pe_launchericon_s.png",
+        "resourceId": "0x7f02005d",
+        "previousSize": [
+          54,
+          72
+        ],
+        "size": [
+          54,
+          72
+        ],
+        "sha256": "0fcc7f7844747615782edab24b43b4fd77b6b70be98f2839ad8d514a888812b3"
+      },
+      {
+        "path": "res/drawable-long-nodpi/p_16_dd_parts_pe_appicon.png",
+        "resourceId": "0x7f02004d",
+        "previousSize": [
+          1,
+          1
+        ],
+        "size": [
+          70,
+          55
+        ],
+        "sha256": "3385c38e0107a7ee926deb4cd9f6319fe8aaf145273db39647ac407435487125"
+      },
+      {
+        "path": "res/drawable-long-nodpi/p_16_dd_parts_pe_launchericon.png",
+        "resourceId": "0x7f02005c",
+        "previousSize": [
+          1,
+          1
+        ],
+        "size": [
+          72,
+          96
+        ],
+        "sha256": "4e51bead0cb534d9a82f20e3d964ad2603e811017da149ed1ac86eb0aa02313f"
+      },
+      {
+        "path": "res/drawable-long-nodpi/p_16_dd_parts_pe_launchericon_s.png",
+        "resourceId": "0x7f02005d",
+        "previousSize": [
+          1,
+          1
+        ],
+        "size": [
+          54,
+          72
+        ],
+        "sha256": "0fcc7f7844747615782edab24b43b4fd77b6b70be98f2839ad8d514a888812b3"
+      }
+    ],
+    "iconSource": "FilmLabUi.FilmIcon original cartridge geometry",
+    "iconColor": "#ffae42",
+    "pngFormat": "RGBA8, non-interlaced"
+  },
+  "preparedInputReceiptSha256": "d010a13aacb022975c603ff932a1cd9061507eba56937dbaf656c93bff952e20",
+  "preparedInput": {
+    "schema": 1,
+    "source_commit": "ea766496cb40ec6a21beeb88da762679cf1786c8",
+    "hook_commit": "7c565898562c73c5073c54dfc831c8c3df9c24cf",
+    "inputs": {
+      "base": {
+        "path": "/workspace/.cache/film-lab/inputs/ricoh-v1.1.4-base.apk",
+        "sha256": "80cb4a541f5f3dd49e8f53ffb1905048097fec17209fc9cb595a00681e65e8ea",
+        "source_url": "https://github.com/bonyback1/sony-pmca-ricoh-mod/releases/download/v1.1.4/PictureEffectPlus_Ricoh.apk"
+      },
+      "hook": {
+        "path": "/workspace/.cache/film-lab/inputs/pinned-RicohHook.smali",
+        "sha256": "2db88c8e42311c587ca8304c2c8ed7d70592ee988ee154327ed5503b107723ae",
+        "source_url": "https://raw.githubusercontent.com/bonyback1/sony-pmca-ricoh-mod/7c565898562c73c5073c54dfc831c8c3df9c24cf/src/smali/RicohHook.smali"
+      },
+      "release": {
+        "path": "/workspace/.cache/film-lab/inputs/FilmStudio-0.3.0-alpha-movie.apk",
+        "sha256": "14d8558687b62f379d60119f2b363443e6d57acdff9a1c19ecf9e64dfb7dcaf1",
+        "source_url": "https://github.com/ukiki0718-netizen/sony-a5100-film-studio/releases/download/v0.3.0-alpha/FilmStudio-0.3.0-alpha-movie.apk"
+      },
+      "checksums": {
+        "path": "/workspace/.cache/film-lab/inputs/SHA256SUMS-v0.3.0-alpha.txt",
+        "sha256": "548994731d848edec15d8783ded11d9dd69a425973f84880fda24196e225b947",
+        "source_url": "https://github.com/ukiki0718-netizen/sony-a5100-film-studio/releases/download/v0.3.0-alpha/SHA256SUMS.txt"
+      },
+      "verification": {
+        "path": "/workspace/.cache/film-lab/inputs/RELEASE-VERIFICATION-v0.3.0-alpha.json",
+        "sha256": "06a00d500182030248f474e89b18de83bade02dbf84ca3cc3763e9d83cfca4b3",
+        "source_url": "https://github.com/ukiki0718-netizen/sony-a5100-film-studio/releases/download/v0.3.0-alpha/RELEASE-VERIFICATION.json"
+      },
+      "apktool": {
+        "path": "/workspace/.cache/film-lab/tools/apktool_2.12.1.jar",
+        "sha256": "66cf4524a4a45a7f56567d08b2c9b6ec237bcdd78cee69fd4a59c8a0243aeafa",
+        "source_url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.12.1/apktool_2.12.1.jar"
+      }
+    },
+    "profile_provenance": {
+      "method": "extracted-published-compiled-profile-holders",
+      "source_apk_sha256": "14d8558687b62f379d60119f2b363443e6d57acdff9a1c19ecf9e64dfb7dcaf1",
+      "source_revision": "ea766496cb40ec6a21beeb88da762679cf1786c8",
+      "fresh_lut_fit": false,
+      "original_lut_hashes_available": false
+    },
+    "profile_json_sha256": "2e2e304a9adfd16c22a908682d40309020d5e1a9b0a9eea7f8359a54c58c3659",
+    "extracted_fuji_profiles": 10,
+    "matched_pinned_ricoh_profiles": 5,
+    "original_compiled_arrays": 120,
+    "movie_enabled": false,
+    "camera_tested": false,
+    "output_path": "/workspace/.cache/film-lab/upstream/film-studio/output/FilmStudio-0.3.0-alpha-photo.apk",
+    "output_sha256": "49f0b24de865ce7c5fa96dec79687ffb786e62a60a204016aad4c7f622bdf3e1",
+    "compiled_arrays_equal_to_published": 120,
+    "verified_icons": 15,
+    "supporting_rec_mode": 1,
+    "checks": [
+      "strength-endpoints",
+      "archive-and-signature",
+      "compiled-profile-equality",
+      "icons",
+      "still-only-rec-mode",
+      "preview-control-flow"
+    ]
+  },
+  "tools": {
+    "ecj": "9cddda75f4a1b4469e73f44e7b61a3e897d0f657df4797f9106ffe88c4eeade0",
+    "dx": "923302e666d76e126e4cdf7129318532b258b1a66e435b92ccc29e91a60357bf",
+    "apktool": "66cf4524a4a45a7f56567d08b2c9b6ec237bcdd78cee69fd4a59c8a0243aeafa",
+    "signer": "e1299fd6fcf4da527dd53735b56127e8ea922a321128123b9c32d619bba1d835",
+    "platform": "54bdb0f1ca06ba5747061ddeea20f431af72c448334fd4d3d7f84ea2ccd29fea",
+    "android": "0160896aafd1da1d3fdd9cf3a3dd0d6c9ab7ac98fffeaba8ebf44ccdc2e37356"
+  },
+  "signatureVerification": "Verifies\nVerified using v1 scheme (JAR signing): true\nVerified using v2 scheme (APK Signature Scheme v2): false\nVerified using v3 scheme (APK Signature Scheme v3): false\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Film Lab local diagnostics, O=Local development, C=ZZ\nSigner #1 certificate SHA-256 digest: 1105a7d129daf82bd7b5a6c6557ac04dacbb1006c4b7758fa1ad0b2333ab2200\nSigner #1 certificate SHA-1 digest: c36370bed0f09d8577d708104e1c07c0084f8f76\nSigner #1 certificate MD5 digest: f110572d8f622ad9ae8932ec58383e8d\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 2048\nSigner #1 public key SHA-256 digest: aca43a04a32022ba53c42ff51e3f4f2d7e1f09392d2caa398cdac87318a754df\nSigner #1 public key SHA-1 digest: 9e6fc60f0bf1098988894a55ba050801b5b1789d\nSigner #1 public key MD5 digest: 685037a84a5f0dc4b7bd7b6dbb0bd721\n",
+  "manifestVerification": {
+    "decoder": "apktool --only-manifest",
+    "package": "com.flab.imaging.app.pictureeffectplus",
+    "launchers": [
+      "com.yuki.imaging.app.pictureeffectplus.PictureEffectPlus"
+    ],
+    "originalApplicationRetained": true,
+    "originalActivityRetained": true,
+    "diagnosticActivityNotExported": true,
+    "versionCode": 3,
+    "versionName": "0.2.1-alpha"
+  }
+}

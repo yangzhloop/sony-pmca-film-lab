@@ -1,0 +1,136 @@
+FILM LAB / 问题报告
+DESIGN TEMPLATE — no camera data was collected.
+Values in angle brackets are placeholders. This is not an actual error report.
+
+[report]
+schema_version=1
+report_id=<generated report identifier>
+session_id=<app session identifier; not a device identifier>
+camera_wall_time=<value or unavailable>
+wall_time_source=<source or unavailable>
+elapsed_realtime_ms=<monotonic timestamp>
+ui_language=<en or zh-CN>
+suggested_card_relative_path=FILMLAB/FLR00001.TXT
+export_target=memory_card
+previous_export_status=<none, verified_card_export or export_failed>
+
+[build]
+app_version=<version>
+build_commit=<full commit identifier>
+build_variant=<variant>
+base_app_sha256=<base APK provenance hash>
+recipe_schema_version=<version>
+profile_catalog_revision=<revision>
+generator_version=<version>
+
+[device]
+model=<Sony-reported model or unavailable>
+firmware=<Sony-reported firmware or unavailable>
+camera_api=<value or unavailable>
+android_api=<value or unavailable>
+serial_number=omitted
+
+[session]
+screen=<current screen>
+capture_state=<idle, applying, capturing, restoring, failed or unknown>
+display_output=<lcd, evf or unknown>
+disp_mode=<value or unknown>
+disp_source=<native_readback, cached or unavailable>
+snapshot_age_ms=<age>
+
+[recipe_state]
+highlighted_id=<id or none>
+requested_id=<id or none>
+requested_revision=<revision or none>
+saved_id=<id or none>
+saved_revision=<revision or none>
+active_id=<id or unsaved_current_look>
+active_revision=<revision or none>
+draft_present=<true or false>
+user_display_names=omitted
+user_notes=omitted
+
+[requested_transform]
+base_id=<id>
+base_revision=<revision>
+monochrome=<true or false>
+color_amount=<value and unit>
+tone_amount=<value and unit>
+shadows=<value in app units>
+highlights=<value in app units>
+wb_mode=<mode>
+wb_kelvin=<value or not_applicable>
+wb_ab=<signed value with defined axis>
+wb_gm=<signed value with defined axis>
+rgb_matrix=<nine requested coefficients plus numeric scale>
+curve_points=<count>
+curve_sha256=<checksum>
+
+[observed_state]
+readback_status=<available, unavailable, failed or cached>
+readback_elapsed_ms=<observation time or unavailable>
+observed_wb=<value plus source, or unavailable>
+observed_matrix=<value plus source, or unavailable>
+observed_curve_hash=<value plus source, or unavailable>
+request_readback_mismatches=<structured differences or none>
+saved_image_verification=<not_checked, independently_verified or failed>
+
+[flash_and_capture]
+flash_mode=<readback value or unavailable>
+flash_compensation_ev=<converted value or unavailable>
+flash_accessory=<detected status or unknown>
+flash_ready=<ready, charging, error or unknown>
+exposure_mode=<readback value or unavailable>
+shutter=<value and unit or unavailable>
+aperture=<value or unavailable>
+iso=<value or unavailable>
+drive_mode=<readback value or unavailable>
+image_quality=<readback value or unavailable>
+capture_callback=<last observed status or unavailable>
+capture_error_code=<observed code or none>
+
+[capabilities]
+rgb_matrix_method=<present, missing or query_failed>
+rgb_matrix_supported=<reported value or unknown>
+gamma_supported=<reported value or unknown>
+flash_supported_types=<reported values or unavailable>
+flash_compensation_range=<reported minimum, maximum and step, or unavailable>
+store_image_callback=<available, missing or untested>
+camera_output_validation=<not_checked or independently_recorded_result>
+
+[last_operation]
+operation_id=<identifier>
+operation=<apply, restore, capture, recipe_save or report_export>
+stage=<begin, accepted, readback, committed, failed or timed_out>
+duration_ms=<duration>
+error_class=<sanitized class or none>
+error_message=<sanitized message or none>
+
+[storage]
+card_status=<accessible, absent, read_only, full, failed or unknown>
+free_bytes=<value or unavailable>
+destination=<verified card-relative path or unavailable>
+last_export_error=<code or none>
+
+[recent_app_events]
+<elapsed_ms> <operation_id> <event_code> <allowlisted structured fields>
+<bounded events in chronological order>
+truncated=<true or false>
+dropped_event_count=<count>
+
+[previous_java_crash]
+status=<present or none>
+session_id=<prior session or not_applicable>
+last_operation=<cached operation or unavailable>
+stack=<bounded sanitized stack or not_applicable>
+
+[reproduction / 复现信息 — add on your computer]
+Steps / 操作步骤:
+Expected result / 预期结果:
+Actual result / 实际结果:
+Flash or trigger model, if relevant / 闪光灯或引闪器型号（如相关）:
+
+[sharing]
+No photos, serial numbers, network identifiers, recipe names or unrelated app logs.
+Copy the verified card TXT to a computer and attach it manually to your issue.
+Project: https://github.com/yangzhloop/sony-pmca-film-lab
